@@ -1,0 +1,13 @@
+class Vehicle:
+    def __init__(self, mileage: int):
+        self.max_speed = 150
+        self.mileage = mileage
+        self.gadgets = list()
+
+
+car = Vehicle(20)
+print(car.max_speed)
+print(car.mileage)
+print(car.gadgets)
+car.gadgets.append('Hudly Wireless')
+print(car.gadgets)
